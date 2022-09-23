@@ -112,6 +112,7 @@ def main():
         glfw.swap_buffers(window)
 
     glfw.terminate()
+    ser.close()
   
 
 if __name__ == "__main__":
